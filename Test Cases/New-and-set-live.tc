@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login into encore and select the relevant KJ for a specific client.</description>
+   <name>New-and-set-live</name>
+   <tag></tag>
+   <comment>Login
+Select KJ
+Create a KSJ
+Set Workflow live booking Ref
+Set workflowlive Brief
+Upload Asset Files
+Rename Files
+Clean up</comment>
+   <testCaseGuid>91ecc39b-9056-441d-9b19-18dfbf1a36b6</testCaseGuid>
+   <variable>
+      <defaultValue>'Britvic Soft Drinks Ltd'</defaultValue>
+      <description>Mandatory</description>
+      <id>7e149b06-64da-4902-b95c-a1198cd63411</id>
+      <masked>false</masked>
+      <name>ClientName</name>
+   </variable>
+   <variable>
+      <defaultValue>'SubTest3'</defaultValue>
+      <description>Mandatory</description>
+      <id>fa8f73e7-b8b1-4250-bc7f-343b1a28062c</id>
+      <masked>false</masked>
+      <name>SubJobName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e04e7511-3e86-4a23-83e4-896f3b8f695b</id>
+      <masked>false</masked>
+      <name>GetKSJNum</name>
+   </variable>
+   <variable>
+      <defaultValue>'KJ93106'</defaultValue>
+      <description></description>
+      <id>94850961-5041-459f-a18f-84b353901060</id>
+      <masked>false</masked>
+      <name>GetKJNum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0064fdae-66da-42e8-afdc-f61608dfcf2b</id>
+      <masked>false</masked>
+      <name>namedfile</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8bae731c-3665-4c40-96f1-c6fb67f6b7ee</id>
+      <masked>false</masked>
+      <name>signoffpdf</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>759bb9bf-2bd8-4bf2-bb49-da63d3adb2d8</id>
+      <masked>false</masked>
+      <name>getsignKSJ</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5fec4d63-477d-4c57-931e-7d52d98a1322</id>
+      <masked>false</masked>
+      <name>getsignKJ</name>
+   </variable>
+</TestCaseEntity>
