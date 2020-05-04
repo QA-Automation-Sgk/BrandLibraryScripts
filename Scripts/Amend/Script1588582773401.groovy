@@ -1,0 +1,71 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+
+WebUI.comment('Login')
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://encorebeta.vcg-online.net/User/Login?ReturnUrl=%2f')
+
+WebUI.setText(findTestObject('Object Repository/Page_Encore/input_Username_UserID'), 'katalon@v.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Encore/input_Password_Password'), '3Z9vEXbPUsD5eDQOwLR1+w==')
+
+WebUI.click(findTestObject('Object Repository/Page_Encore/input_Remember Me_green-button'))
+
+WebUI.comment('Search KSJ')
+
+WebUI.click(findTestObject('Page_KSJ_Encore/input_Home_searchCriteria'))
+
+WebUI.setText(findTestObject('Page_KSJ_Encore/input_Home_searchCriteria'), KSJNum)
+
+WebUI.click(findTestObject('Page_KSJ_Encore/input_Home_searchButton'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/a_Searched-KSJ-Result'))
+
+WebUI.comment('Reversion Workflow')
+
+WebUI.rightClick(findTestObject('Page_KSJ_Encore/Last-Stage-katalon-job-complete'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/WF_Stage_Start'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/input_Reversion-workflow'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/Reversion-body_id(tinymce)'))
+
+WebUI.setText(findTestObject('Page_KSJ_Encore/Reversion-body_id(tinymce)'), 'test')
+
+WebUI.setText(findTestObject('Page_KSJ_Encore/input_Reversion-Non Chargeable'), '1')
+
+WebUI.click(findTestObject('Page_KSJ_Encore/a_Reversion-Next-Button'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/QA1_Stage_Reversion_R'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/a_Reversion-Next-Button'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/a_Reversion_Finish'))
+
+WebUI.comment('Start and Complete QA1  Stage')
+
+WebUI.rightClick(findTestObject('Page_KSJ_Encore/div_QA1_Stage'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/WF_Stage_Start'))
+
+WebUI.rightClick(findTestObject('Page_KSJ_Encore/div_QA1_Stage'))
+
+WebUI.click(findTestObject('Page_KSJ_Encore/WF_Stage_Complete'))
+

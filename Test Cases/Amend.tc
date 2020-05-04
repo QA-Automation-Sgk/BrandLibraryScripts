@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is to amend and upload v2</description>
+   <name>Amend</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4bf1668-526e-44ff-a4c1-5b69e18329bf</testCaseGuid>
+   <variable>
+      <defaultValue>'903354'</defaultValue>
+      <description></description>
+      <id>3b3e44b8-fc06-4812-9f06-db146628197c</id>
+      <masked>false</masked>
+      <name>KSJNum</name>
+   </variable>
+</TestCaseEntity>
