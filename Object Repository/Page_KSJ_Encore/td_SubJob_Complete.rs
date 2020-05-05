@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Last-Stage-katalon-job-complete</name>
+   <name>td_SubJob_Complete</name>
    <tag></tag>
-   <elementGuidId>e1a5ebc2-769f-4302-a91b-f41c4bec1502</elementGuidId>
+   <elementGuidId>38781d49-9dee-4764-a838-91b2db9627eb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='stage01']/p</value>
+         <value>//*/text()[normalize-space(.)='Complete']/parent::*</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;stage01&quot;)/p[1]</value>
+         <value>//*[@id = 'lblSubJobStatus' and (text() = 'Complete ' or . = 'Complete ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,76 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>status</name>
+      <name>id</name>
       <type>Main</type>
-      <value>3</value>
+      <value>lblSubJobStatus</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>katalon job complete</value>
+      <value>Complete </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;stage01&quot;)/p[1]</value>
+      <value>id(&quot;lblSubJobStatus&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='lblSubJobStatus']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='stage01']/p</value>
+      <value>//div[@id='content']/div[3]/div[2]/div[5]/div[2]/table/tbody/tr/td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Details'])[1]/following::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Activity'])[1]/following::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Britvic Soft Drinks Ltd'])[1]/following::td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Info'])[1]/preceding::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Explorer'])[1]/preceding::td[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Briefs'])[1]/preceding::p[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='katalon job complete']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Complete']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/div/div/p</value>
+      <value>//td[2]</value>
    </webElementXpaths>
 </WebElementEntity>

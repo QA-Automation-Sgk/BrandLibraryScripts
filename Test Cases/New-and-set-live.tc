@@ -9,7 +9,9 @@ Create a KSJ
 Set Workflow live booking Ref
 Set workflowlive Brief
 Upload Asset Files
-Rename Files
+Rename Artwork image file
+Rename SignOff PDF
+Start and Complete Stage
 Clean up</comment>
    <testCaseGuid>91ecc39b-9056-441d-9b19-18dfbf1a36b6</testCaseGuid>
    <variable>

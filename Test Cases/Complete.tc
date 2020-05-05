@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is to complete the subjob</description>
+   <name>Complete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d18a7bc-60f1-46f4-9243-1ec42954b3ac</testCaseGuid>
+   <variable>
+      <defaultValue>'903354'</defaultValue>
+      <description></description>
+      <id>1c4752e2-b202-462f-99b3-51320abf534e</id>
+      <masked>false</masked>
+      <name>KSJNum</name>
+   </variable>
+</TestCaseEntity>
