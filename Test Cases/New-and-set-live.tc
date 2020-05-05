@@ -70,4 +70,11 @@ Clean up</comment>
       <masked>false</masked>
       <name>getsignKJ</name>
    </variable>
+   <variable>
+      <defaultValue>'44444'</defaultValue>
+      <description>Mandatory</description>
+      <id>bdacaf36-31ff-4dbb-9e67-30a204837948</id>
+      <masked>false</masked>
+      <name>ServiceOrder</name>
+   </variable>
 </TestCaseEntity>

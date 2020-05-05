@@ -54,7 +54,7 @@ WebUI.click(findTestObject('Page_KSJ_Encore/input_Chargeable_SubJobIsChargeable'
 
 WebUI.click(findTestObject('Page_KSJ_Encore/input_Core Service Order_SubJobPartNumber'))
 
-WebUI.setText(findTestObject('Page_KSJ_Encore/input_Core Service Order_SubJobPartNumber'), '4444')
+WebUI.setText(findTestObject('Page_KSJ_Encore/input_Core Service Order_SubJobPartNumber'), ServiceOrder)
 
 WebUI.click(findTestObject('Page_KJ_Encore/input_create_subjob'))
 
