@@ -24,6 +24,7 @@ WebUI.navigateToUrl('http://encorebeta.vcg-online.net/User/Login?ReturnUrl=%2f')
 
 WebUI.setText(findTestObject('Object Repository/Page_Encore/input_Username_UserID'), 'katalon@v.com')
 
+'Testing123'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Encore/input_Password_Password'), '3Z9vEXbPUsD5eDQOwLR1+w==')
 
 WebUI.click(findTestObject('Object Repository/Page_Encore/input_Remember Me_green-button'))
