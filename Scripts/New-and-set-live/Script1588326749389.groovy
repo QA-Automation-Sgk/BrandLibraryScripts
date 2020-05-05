@@ -50,6 +50,8 @@ WebUI.setText(findTestObject('Page_KJ_Encore/input__SubJobName'), SubJobName)
 
 WebUI.selectOptionByValue(findTestObject('Page_KJ_Encore/select_reasonforartwork'), '60', true)
 
+WebUI.click(findTestObject('Page_KSJ_Encore/input_Chargeable_SubJobIsChargeable'))
+
 WebUI.click(findTestObject('Page_KSJ_Encore/input_Core Service Order_SubJobPartNumber'))
 
 WebUI.setText(findTestObject('Page_KSJ_Encore/input_Core Service Order_SubJobPartNumber'), '4444')

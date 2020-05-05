@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Core Service Order_SubJobPartNumber</name>
+   <name>input_Chargeable_SubJobIsChargeable</name>
    <tag></tag>
-   <elementGuidId>4843e159-2bb7-43ed-9b63-cbcee6a7f5c2</elementGuidId>
+   <elementGuidId>f263b00e-b2f8-489d-811a-2b2ec8229088</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='SubJob_PartNumber']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'SubJob_PartNumber' and @name = 'SubJob.PartNumber' and @type = 'text' and @ref_element = 'Object Repository/Page_KSJ_Encore/iframe_ParentIframe_do_not-delete']</value>
+         <value>//input[@id='SubJob_IsChargeable']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,39 +20,46 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>checked</name>
       <type>Main</type>
-      <value>off</value>
+      <value>checked</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>SubJob_PartNumber</value>
+      <value>SubJob_IsChargeable</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>SubJob.PartNumber</value>
+      <value>SubJob.IsChargeable</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;SubJob_PartNumber&quot;)</value>
+      <value>id(&quot;SubJob_IsChargeable&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,20 +73,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='SubJob_PartNumber']</value>
+      <value>//input[@id='SubJob_IsChargeable']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dialogContent']/fieldset/div[11]/div[3]/input</value>
+      <value>//div[@id='dialogContent']/fieldset/div[7]/div[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/div[3]/input</value>
+      <value>//div[7]/div[3]/input</value>
    </webElementXpaths>
 </WebElementEntity>

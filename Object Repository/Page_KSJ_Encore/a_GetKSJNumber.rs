@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//a[@id='js-tree-item-0']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = ' KSJ903354' or . = ' KSJ903354')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

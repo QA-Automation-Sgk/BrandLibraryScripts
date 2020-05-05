@@ -22,7 +22,7 @@ Clean up</comment>
       <name>ClientName</name>
    </variable>
    <variable>
-      <defaultValue>'SubTest3'</defaultValue>
+      <defaultValue>'SubTest4'</defaultValue>
       <description>Mandatory</description>
       <id>fa8f73e7-b8b1-4250-bc7f-343b1a28062c</id>
       <masked>false</masked>
