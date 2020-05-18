@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is used to send the first version of  PDF file to Brand Library</description>
+   <name>First Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f95badd-4944-48ef-9f15-aabb9e381228</testCaseGuid>
+   <variable>
+      <defaultValue>'903354'</defaultValue>
+      <description></description>
+      <id>b2bbff6a-f113-4cee-8039-31b6ce387d65</id>
+      <masked>false</masked>
+      <name>KSJNum</name>
+   </variable>
+</TestCaseEntity>
