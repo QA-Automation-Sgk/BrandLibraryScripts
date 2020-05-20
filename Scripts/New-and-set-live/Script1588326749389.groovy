@@ -89,77 +89,77 @@ WebUI.setText(findTestObject('Page_KSJ_Encore/BriefBody'), 'test')
 
 WebUI.click(findTestObject('Page_KSJ_Encore/a_Brief-Ok-button'))
 
-WebUI.comment('Upload Asset Files')
+not_run: WebUI.comment('Upload Asset Files')
 
-WebUI.click(findTestObject('Page_KSJ_Encore/KSJ Asset Tab'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/KSJ Asset Tab'))
 
-WebUI.click(findTestObject('Page_KSJ_Encore/open-original-files-assettab'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/open-original-files-assettab'))
 
-WebUI.rightClick(findTestObject('Page_KSJ_Encore/a_ArtworkPDFFolder'))
+not_run: WebUI.rightClick(findTestObject('Page_KSJ_Encore/a_ArtworkPDFFolder'))
 
-WebUI.click(findTestObject('Page_KSJ_Encore/a_rightclick-ToUploadfiles'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/a_rightclick-ToUploadfiles'))
 
-WebUI.uploadFile(findTestObject('Page_KSJ_Encore/input_Select Files_toupload'), 'C:\\Users\\papa.danso\\Desktop\\katalonfiles\\Artwork.jpg')
+not_run: WebUI.uploadFile(findTestObject('Page_KSJ_Encore/input_Select Files_toupload'), 'C:\\Users\\papa.danso\\Desktop\\katalonfiles\\Artwork.jpg')
 
-WebUI.click(findTestObject('Page_KSJ_Encore/bt_UploadFile'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/bt_UploadFile'))
 
-WebUI.rightClick(findTestObject('Page_KSJ_Encore/a_SignoffPDFFolder'))
+not_run: WebUI.rightClick(findTestObject('Page_KSJ_Encore/a_SignoffPDFFolder'))
 
-WebUI.click(findTestObject('Page_KSJ_Encore/a_rightclick-ToUploadfiles'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/a_rightclick-ToUploadfiles'))
 
-WebUI.uploadFile(findTestObject('Page_KSJ_Encore/input_Select Files_toupload'), 'C:\\Users\\papa.danso\\Desktop\\katalonfiles\\signoff.pdf')
+not_run: WebUI.uploadFile(findTestObject('Page_KSJ_Encore/input_Select Files_toupload'), 'C:\\Users\\papa.danso\\Desktop\\katalonfiles\\signoff.pdf')
 
-WebUI.click(findTestObject('Page_KSJ_Encore/bt_UploadFile'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/bt_UploadFile'))
 
-WebUI.comment('Rename Artwork image file')
+not_run: WebUI.comment('Rename Artwork image file')
 
-GetKSJNum = WebUI.getText(findTestObject('Page_KSJ_Encore/a_GetKSJNumber'))
+not_run: GetKSJNum = WebUI.getText(findTestObject('Page_KSJ_Encore/a_GetKSJNumber'))
 
-getsignKSJ = GetKSJNum
+not_run: getsignKSJ = GetKSJNum
 
-getsignKJ = GetKJNum
+not_run: getsignKJ = GetKJNum
 
-WebUI.rightClick(findTestObject('Page_KSJ_Encore/a_Artworkjpg-Uploadedfile'))
+not_run: WebUI.rightClick(findTestObject('Page_KSJ_Encore/a_Artworkjpg-Uploadedfile'))
 
-WebUI.click(findTestObject('Page_KSJ_Encore/a_Select-RenameUploadedFiles'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/a_Select-RenameUploadedFiles'))
 
-WebUI.clearText(findTestObject('Page_KSJ_Encore/input_RenameTextBox'))
+not_run: WebUI.clearText(findTestObject('Page_KSJ_Encore/input_RenameTextBox'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-namedfile = ((GetKJNum.trim() + '_') + GetKSJNum.trim())
+not_run: namedfile = ((GetKJNum.trim() + '_') + GetKSJNum.trim())
 
-WebUI.setText(findTestObject('Page_KSJ_Encore/input_RenameTextBox'), namedfile)
+not_run: WebUI.setText(findTestObject('Page_KSJ_Encore/input_RenameTextBox'), namedfile)
 
-WebUI.click(findTestObject('Page_KSJ_Encore/input_renamefile-Ok-button'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/input_renamefile-Ok-button'))
 
-WebUI.comment('Rename SignOff PDF')
+not_run: WebUI.comment('Rename SignOff PDF')
 
-WebUI.rightClick(findTestObject('Page_KSJ_Encore/a_Signoffpdf-Uploadedfile'))
+not_run: WebUI.rightClick(findTestObject('Page_KSJ_Encore/a_Signoffpdf-Uploadedfile'))
 
-WebUI.click(findTestObject('Page_KSJ_Encore/a_Select-RenameUploadedFiles'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/a_Select-RenameUploadedFiles'))
 
-WebUI.clearText(findTestObject('Page_KSJ_Encore/input_RenameTextBox'))
+not_run: WebUI.clearText(findTestObject('Page_KSJ_Encore/input_RenameTextBox'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-signoffpdf = (((getsignKJ.trim() + '_') + getsignKSJ.trim()) + '_v1-1')
+not_run: signoffpdf = (((getsignKJ.trim() + '_') + getsignKSJ.trim()) + '_v1-1')
 
-WebUI.setText(findTestObject('Page_KSJ_Encore/input_RenameTextBox'), signoffpdf)
+not_run: WebUI.setText(findTestObject('Page_KSJ_Encore/input_RenameTextBox'), signoffpdf)
 
-WebUI.click(findTestObject('Page_KSJ_Encore/input_renamefile-Ok-button'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/input_renamefile-Ok-button'))
 
-WebUI.comment('Start and Complete Stage')
+not_run: WebUI.comment('Start and Complete Stage')
 
-WebUI.rightClick(findTestObject('Page_KSJ_Encore/div_QA1_Stage'))
+not_run: WebUI.rightClick(findTestObject('Page_KSJ_Encore/div_QA1_Stage'))
 
-WebUI.click(findTestObject('Page_KSJ_Encore/WF_Stage_Start'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/WF_Stage_Start'))
 
-WebUI.rightClick(findTestObject('Page_KSJ_Encore/div_QA1_Stage'))
+not_run: WebUI.rightClick(findTestObject('Page_KSJ_Encore/div_QA1_Stage'))
 
-WebUI.click(findTestObject('Page_KSJ_Encore/WF_Stage_Complete'))
+not_run: WebUI.click(findTestObject('Page_KSJ_Encore/WF_Stage_Complete'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.comment('Clean up')
 
